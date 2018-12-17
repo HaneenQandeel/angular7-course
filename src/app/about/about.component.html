@@ -1,0 +1,27 @@
+
+<div class="blog">
+  <h2>Form for Products</h2>
+    <label>Name</label> <input type="text" [(ngModel)]='name'/><br>
+    <label>Price</label><input type="text" [(ngModel)]='price'/><br>
+    <label>Quatity</label><input type="text" [(ngModel)]='quatity'/><br>
+<button (click)='onClick()'>Add Product</button>
+<div class="content">
+<table border="1">
+  <thead>
+     <tr>
+       <th>Name</th>
+       <th>Price</th>
+       <th>Quatity</th>
+     </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let ind of result">
+      <td>{{ind.name}}</td>
+      <td>{{ind.price}}</td>
+      <td>{{ind.quatity}}</td>
+    </tr> 
+  </tbody>
+</table> 
+</div> 
+
+</div>

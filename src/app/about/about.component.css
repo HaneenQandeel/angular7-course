@@ -1,0 +1,46 @@
+
+.blog {
+    position: relative;
+    width  : 740px;
+    height : 498px;
+    margin : 0 auto;
+    text-align: center;
+    border:1px solid #000;
+    border-width:10px;
+    background-color: #eee;
+  }
+
+h2{
+    color:red;
+}
+.content table{
+    margin: 0 auto;
+    width:50%;
+    margin-top: 30px;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center
+  }
+.blog label{
+    color:#4CAF50;
+}
+table, td, th {  
+    border: 1px solid #ddd;
+  } 
+input[type=text] {
+    width: 50%;
+    margin-top:20px;
+    border: 2px solid #ccc;
+  }
+button {
+    background-color: #4CAF50;
+    color: white;
+    margin-top:25px;
+    border: none;
+    width: 100px;
+    height:30px;
+    border-radius:2px;
+    text-align: center;
+  }  

@@ -5,11 +5,19 @@ import {FormsModule} from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent
+    AboutComponent,
+    HeaderComponent,
+    FooterComponent,
+    SearchBarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
